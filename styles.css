@@ -12,7 +12,7 @@ body {
 
     background: url("sponsor image.jpeg" ) no-repeat center/cover;
 
-    color: chartreuse;
+    color: khaki;
 
     text-align: center;
 
@@ -37,6 +37,8 @@ body {
 }
 
 section{
+
+    background-color: bisque;
 
     padding: 2rem;
 
@@ -118,6 +120,7 @@ footer{
 
     padding: 1rem;
 }
+
 
 
 

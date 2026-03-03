@@ -20,13 +20,15 @@
 
         <header class="hero">
 
-            <h1>10km Lanna Sponsored Walk!</h1>
+            <h1>Lanna Sponsored Walk!</h1>
 
-            <p>March 7 2026|Main Mall Gaborone</p>
+            <p>March 7 2026|Main Mall Gaborone|07:00</p>
 
             <a href="#register" class="btn">Register Now</a>
 
             <a href="sponsors.html" class="btn">See Our Sponsors</a>
+
+            <a href="prizes.html" class="btn">Prizes</a>
 
     </header>
 
@@ -39,6 +41,12 @@
 
             <p>Be part of us as we strive to Protect.Prevent.Empower</p>
 
+            <p>we aim to:</p>
+
+            <p>Raise awareness, mobilize community action and promote positive behaviour & responsible decision making.</p>
+
+            <p>Raise funds for child & youth development programs.</p>
+
         </section>
 
     <section id="register" class="register">
@@ -47,7 +55,7 @@
 
         <form id="registrationForm">
 
-            <label>Name:</label><input type="text"> name="name" <required>
+            <label>Name:</label><input type="text" <required>
 
                 <label>Email:</label><input type="email" required>
 
@@ -55,9 +63,20 @@
 
         </form>
 
-         <div id="thankYouMesssage" style="display: none; color: chartreuse; margin-top: 1rem;">Thank you for Registering
+         <p id="thankYouMesssage" style="display: none; color: chartreuse; margin-top: 1rem;">Thank you for Registering
 
-        </div>
+        </p>
+
+        <script>
+
+            document.getElementById("registrationForm").addEventListener("submit", function(event) {
+
+                event.preventDefault(); // prevents page reload
+
+                document.getElementById("thankYou").style.display ="block";
+            });
+
+        </script>
 
     </section>
 
@@ -65,7 +84,7 @@
 
         <h2>Event Highlights</h2>
 
-        <img src="sponsor image.jpeg" alt="sponsor image">
+        <img src="sp photo.webp" alt="sp photo">
 
     </section>
 

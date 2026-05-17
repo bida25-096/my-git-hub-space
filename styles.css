@@ -8,7 +8,7 @@ body {
 
 }
 
-.hero{
+.hero {
 
     background: url( "sps walk.jpg" ) no-repeat center/cover;
 
@@ -20,7 +20,7 @@ body {
 
 }
 
-.hero .btn{
+.hero .btn {
 
   background: whitesmoke;  
 
@@ -36,7 +36,7 @@ body {
 
 }
 
-section{
+section {
 
   background-color: darkseagreen;
 
@@ -44,7 +44,30 @@ section{
 
 }
 
-.register form{
+
+header p {
+
+  margin-bottom: 0;
+
+}
+
+section.feedback h2 {
+
+  margin-top: 0;
+
+  margin-bottom: 0.5rem;
+
+}
+
+header {
+
+  background-color: darkseagreen;
+
+  padding: 2rem;
+
+}
+
+.register form {
 
     display: inline-block;
 
@@ -54,7 +77,7 @@ section{
 
 }
 
-#thankYouMessage{
+#thankYouMessage {
 
     font-size: medium;
 
@@ -110,7 +133,7 @@ section{
 
 }
 
-footer{
+footer {
 
     background:cyan;
 
@@ -131,7 +154,7 @@ body {
 
 }
 
-.hero{
+.hero {
 
     background: url("sps walk.jpg" ) no-repeat center/cover;
 
@@ -143,7 +166,7 @@ body {
 
 }
 
-.hero .btn{
+.hero .btn {
 
   background: whitesmoke;  
 
@@ -159,7 +182,7 @@ body {
 
 }
 
-section{
+section {
 
     background-color: darkseagreen;
 
@@ -167,9 +190,9 @@ section{
 
 }
 
-.register form{
+.register form {
 
-    display: inline-block;
+    display: flex;
 
     flex-direction: column;
 
@@ -177,7 +200,7 @@ section{
 
 }
 
-#thankYouMessage{
+#thankYouMessage {
 
     font-size: medium;
 
@@ -233,7 +256,7 @@ section{
 
 }
 
-footer{
+footer {
 
     background:cyan;
 
